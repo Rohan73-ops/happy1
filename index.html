@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bg-music" loop>
+        <source src="music/romantic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="hearts"></div>
+
+    <div class="container">
+        <h1>🎉 Happy Birthday My Love ❤️</h1>
+        <p class="message">
+            Every moment with you is special 💕  
+            You are my happiness, today and always 💖
+        </p>
+
+        <button class="special-btn" onclick="openMoments()">💖 Special Moments</button>
+        <button class="music-btn" onclick="toggleMusic()">🎵 Play Music</button>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closeMoments()">×</span>
+            <h2>Our Special Moments 💑</h2>
+            <div class="gallery">
+                <img src="images/moment1.jpg">
+                <img src="images/moment2.jpg">
+                <img src="images/moment3.jpg">
+                <img src="images/moment4.jpg">
+                <img src="images/moment5.jpg">
+                <img src="images/moment6.jpg">
+                <img src="images/moment7.jpg">
+                <img src="images/moment8.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
